@@ -33,7 +33,20 @@ print(song_lyric)
 For more detailed usage instructions and examples, please refer to the [examples](../examples) directory.
 
 ## Tests
-The tests for the package can be found in the [tests](../tests) directory. You can run the tests using your preferred testing framework.
+The tests for the package can be found in the [tests](../tests) directory. 
+To run the tests for the package, you can use one of the following commands:
+
+```bash
+python -m unittest discover -s tests
+```
+
+or alternatively:
+
+```bash
+python -m unittest tests.test_eminem_lyric
+```
+
+The first command runs all tests in the tests directory, while the second command runs a specific test file (`test_eminem_lyric.py`). Make sure you are in the root directory of the project when running these commands.
 
 ## License
 This project is licensed under the **MIT License**, which grants permission for free use, modification, distribution, and sublicense of the code, provided that the copyright notice (attributed to [emads22](https://github.com/emads22)) and permission notice are included in all copies or substantial portions of the software. This license is permissive and allows users to utilize the code for both commercial and non-commercial purposes.
