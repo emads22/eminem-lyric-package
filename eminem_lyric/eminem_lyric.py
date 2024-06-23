@@ -11,7 +11,7 @@ class EminemLyric:
     data, allowing users flexibility in accessing the lyrics.
 
     Methods:
-    - __init__(song_title: str): Initializes an EminemLyric object with the specified song title.
+    - __init__(song: str): Initializes an EminemLyric object with the specified song title.
     - lyric (property): Property to fetch and return the processed lyric of the specified song.
     - lyric_raw (property): Property to fetch and return the raw lyric data from the API.
 
@@ -30,14 +30,14 @@ class EminemLyric:
     """
     _source = "https://api.lyrics.ovh/v1/eminem/"  # API source URL
 
-    def __init__(self, song_title: str) -> None:
+    def __init__(self, song: str) -> None:
         """
         Initializes an EminemLyric object with the specified song title.
 
         Parameters:
-        - song_title (str): The title of the Eminem song.
+        - song (str): The title of the Eminem song.
         """
-        self.song = song_title  # Calls the setter method
+        self.song = song  # Calls the setter method
 
     def __str__(self) -> str:
         """
@@ -118,13 +118,14 @@ class EminemLyric:
         - Exception: If the song is not found in the API response or if there is an error fetching the lyric.
         """
         try:
-            with requests.get(self._source + self._song) as response:
+            with requests.get(self._source + self.song) as response:
                 response.raise_for_status()
                 data = response.json()
                 return data
         except HTTPError as http_error:
             if http_error.response.status_code == 404:
-                raise Exception("No lyrics found for the requested song.")
+                raise Exception(
+                    f"No lyrics found for the requested song '{self.song}'.")
             else:
                 raise Exception(f"HTTP Error: {http_error}")
         except RequestException as request_exception:

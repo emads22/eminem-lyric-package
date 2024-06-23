@@ -23,7 +23,7 @@ To use the eminem_lyric package, follow these steps:
 from eminem_lyric import EminemLyric
 
 # Create an instance of EminemLyric
-lyric_object = EminemLyric(song_title='Lose Yourself')
+lyric_object = EminemLyric(song='Lose Yourself')
 
 # Access the lyrics
 song_lyric = lyric_object.lyric
