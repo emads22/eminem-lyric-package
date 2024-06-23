@@ -6,7 +6,7 @@ with open("README.md", "r") as file:
 
 setup(
     name='eminem_lyric',
-    version='1.0.4',
+    version='1.0.5',
     packages=find_packages(),
     description='A Python package for fetching Eminem song lyrics.',
     long_description=long_description,  # Use README.md content as long description
