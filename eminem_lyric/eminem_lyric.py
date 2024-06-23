@@ -118,14 +118,15 @@ class EminemLyric:
         - Exception: If the song is not found in the API response or if there is an error fetching the lyric.
         """
         try:
-            with requests.get(self._source + self.song) as response:
+            # Use self._song to ensure consistency in attribute usage
+            with requests.get(self._source + self._song) as response:
                 response.raise_for_status()
                 data = response.json()
                 return data
         except HTTPError as http_error:
             if http_error.response.status_code == 404:
                 raise Exception(
-                    f"No lyrics found for the requested song '{self.song}'.")
+                    f"No lyrics found for the requested song '{self._song}'.")
             else:
                 raise Exception(f"HTTP Error: {http_error}")
         except RequestException as request_exception:
