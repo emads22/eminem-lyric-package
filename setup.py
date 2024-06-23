@@ -18,7 +18,7 @@ Whether you're an Eminem fan looking to explore his vast discography or a develo
     keywords=['eminem', 'lyric', 'lyrics', 'api'],
     classifiers=[
         'Development Status :: 4 - Beta',
-        'Intended Audience :: Developers, Eminem Stans',
+        'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.7',
