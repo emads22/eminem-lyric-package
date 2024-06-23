@@ -1,9 +1,9 @@
-# Eminem Lyric
+# eminem_lyric
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Overview
-**Eminem Lyric** is a Python package designed for all Eminem stans out there. I have been an Eminem stan since the early 2000s, so if you've been a fan of Eminem's music since "The Slim Shady LP" or if you've recently discovered his talent, this package is for you. With **Eminem Lyric**, you can easily access the lyrics of your favorite Eminem tracks, from his early hits to his latest releases. 
+**eminem_lyric** is a Python package designed for all Eminem stans out there. I have been an Eminem stan since the early 2000s, so if you've been a fan of Eminem's music since "The Slim Shady LP" or if you've recently discovered his talent, this package is for you. With **eminem_lyric**, you can easily access the lyrics of your favorite Eminem tracks, from his early hits to his latest releases. 
 
 ## Features
 - **Easy to Use**: Retrieve lyrics with just a few lines of Python code.
@@ -11,7 +11,7 @@
 - **Flexible**: Retrieve lyrics as plain text or in raw JSON format.
 
 ## Installation
-You can install the Eminem Lyric package via pip:
+You can install the eminem_lyric package via pip:
 
 ```bash
 pip install eminem_lyric
@@ -23,7 +23,7 @@ For more information and usage instructions, visit the [PyPI page](https://pypi.
 For more detailed documentation, including API references and usage examples, please visit the [documentation](./docs/index.md).
 
 ## Examples
-Check out the [examples](./examples) directory for usage examples of the Eminem Lyric package.
+Check out the [examples](./examples) directory for usage examples of the eminem_lyric package.
 
 ## Contributing
 Contributions are welcome! Here are some ways you can contribute to the project:

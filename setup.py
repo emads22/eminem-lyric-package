@@ -5,8 +5,9 @@ setup(
     version='1.0.0',
     packages=find_packages(),
     description='A Python package for fetching Eminem song lyrics.',
-    long_description='''This package provides a convenient interface for fetching and accessing lyrics of Eminem songs using an external lyrics API.
-                        It offers methods to retrieve both processed lyrics and raw lyric data, allowing users flexibility in accessing the lyrics.''',
+    long_description = '''eminem_lyric is a Python package that provides a convenient interface for fetching and accessing lyrics of Eminem songs using an external lyrics API. 
+It offers methods to retrieve both processed lyrics and raw lyric data, allowing users flexibility in accessing the lyrics. 
+Whether you're an Eminem fan looking to explore his vast discography or a developer wanting to integrate Eminem lyrics into your applications, eminem_lyric has got you covered.''',
     author='Emads',
     author_email='ems22.dev@gmail.com',
     url='https://github.com/emads22/eminem-lyric-package',

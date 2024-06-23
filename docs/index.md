@@ -1,10 +1,10 @@
-# Eminem Lyric
+# eminem_lyric
 
 ## Overview
-Welcome to the documentation for the **Eminem Lyric** Python package! This document provides an overview of the package, installation instructions, usage examples, and other relevant information. The package is based on the [lyrics.ovh API](https://lyrics.ovh/), ensuring reliable access to accurate Eminem lyrics.
+Welcome to the documentation for the **eminem_lyric** Python package! This document provides an overview of the package, installation instructions, usage examples, and other relevant information. The package is based on the [lyrics.ovh API](https://lyrics.ovh/), ensuring reliable access to accurate eminem_lyric.
 
 ## Installation
-You can install the Eminem Lyric package via pip:
+You can install the eminem_lyric package via pip:
 
 ```bash
 pip install eminem_lyric
@@ -13,7 +13,7 @@ pip install eminem_lyric
 For more information and usage instructions, visit the [PyPI page](https://pypi.org/project/eminem_lyric/).
 
 ## Usage
-To use the Eminem Lyric package, follow these steps:
+To use the eminem_lyric package, follow these steps:
 
 1. Import the `EminemLyric` class from the package.
 2. Create an instance of the `EminemLyric` class, providing the title of the Eminem song.
