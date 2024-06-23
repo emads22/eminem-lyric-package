@@ -1,7 +1,7 @@
 # eminem_lyric
 
 ## Overview
-Welcome to the documentation for the **eminem_lyric** Python package! This document provides an overview of the package, installation instructions, usage examples, and other relevant information. The package is based on the [lyrics.ovh API](https://lyrics.ovh/), ensuring reliable access to accurate eminem_lyric.
+Welcome to the documentation for the **eminem_lyric** Python package! This document provides an overview of the package, installation instructions, usage examples, and other relevant information. The package is based on the [lyrics.ovh API](https://lyricsovh.docs.apiary.io/), ensuring reliable access to accurate eminem_lyric.
 
 ## Installation
 You can install the eminem_lyric package via pip:
