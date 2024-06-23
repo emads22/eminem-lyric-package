@@ -20,10 +20,10 @@ pip install eminem_lyric
 For more information and usage instructions, visit the [PyPI page](https://pypi.org/project/eminem_lyric/).
 
 ## Documentation
-For more detailed documentation, including API references and usage examples, please visit the [documentation](./docs/index.md).
+For more detailed documentation, including API reference and usage examples, please visit the [documentation](https://github.com/emads22/eminem-lyric-package/tree/main/docs/index.md).
 
 ## Examples
-Check out the [examples](./examples) directory for usage examples of the eminem_lyric package.
+Check out the [examples](https://github.com/emads22/eminem-lyric-package/tree/main/examples) directory for usage examples of the eminem_lyric package.
 
 ## Contributing
 Contributions are welcome! Here are some ways you can contribute to the project:
