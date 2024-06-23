@@ -9,7 +9,7 @@ setup(
                         It offers methods to retrieve both processed lyrics and raw lyric data, allowing users flexibility in accessing the lyrics.''',
     author='Emads',
     author_email='ems22.dev@gmail.com',
-    url='https://github.com/emads22/eminem_lyric',
+    url='https://github.com/emads22/eminem-lyric-package',
     license='MIT',
     install_requires=[
         'requests',
