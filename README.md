@@ -10,6 +10,11 @@
 - **Comprehensive**: Access lyrics for a wide range of Eminem songs.
 - **Flexible**: Retrieve lyrics as plain text or in raw JSON format.
 
+## Technologies Used
+- **requests**: A library for making HTTP requests.
+- **setuptools**: A package development and distribution library.
+- **twine**: A utility for publishing Python packages to PyPI.
+
 ## Installation
 You can install the eminem_lyric package via pip:
 
