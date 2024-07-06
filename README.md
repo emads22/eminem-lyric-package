@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/emads22/eminem-lyric-package/tree/main/LICENSE)
 
-![eminem_lyric_logo](./assets/images/eminem_lyric_logo.png)
+![eminem_lyric_logo](https://raw.githubusercontent.com/emads22/eminem-lyric-package/main/assets/images/eminem_lyric_logo.png)
 
 ## Overview
 **eminem_lyric** is a Python package designed for all Eminem stans out there. I have been an Eminem stan since the early 2000s, so if you've been a fan of Eminem's music since "The Slim Shady LP" or if you've recently discovered his talent, this package is for you. With **eminem_lyric**, you can easily access the lyrics of your favorite Eminem tracks, from his early hits to his latest releases. 
