@@ -6,7 +6,7 @@ with open("README.md", "r") as file:
 
 setup(
     name='eminem_lyric',
-    version='1.0.6',
+    version='1.0.7',
     packages=find_packages(),
     description='A Python package for fetching Eminem song lyrics.',
     long_description=long_description,  # Use README.md content as long description
@@ -19,7 +19,7 @@ setup(
     install_requires=[
         'requests',
     ],
-    keywords=['eminem', 'lyric', 'lyrics', 'api'],
+    keywords=['eminem', 'lyric', 'lyrics', 'eminemlyric', 'eminem_lyric', 'stan', 'slim shady', 'api'],
     classifiers=[
         # License
         'License :: OSI Approved :: MIT License',
