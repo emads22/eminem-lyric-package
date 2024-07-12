@@ -12,8 +12,8 @@ setup(
     long_description=long_description,  # Use README.md content as long description
     # Specify that long description is in Markdown format
     long_description_content_type='text/markdown',
-    author='Emads',
-    author_email='ems22.dev@gmail.com',
+    author='Emad',
+    author_email='emadsaab222@gmail.com',
     url='https://github.com/emads22/eminem-lyric-package',
     license='MIT',
     install_requires=[
